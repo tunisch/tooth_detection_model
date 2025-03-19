@@ -1,14 +1,39 @@
+# Bu dosya, projenin akademik veya bilimsel çalışmalarda nasıl alıntılanacağını belirten bir standarttır.
+# Özellikle araştırmacılar, akademisyenler veya bilim insanları projeni bir makalede, tezde 
+# veya akademik yayında kullanmak istediklerinde, bu dosya onlara doğru alıntılama formatını sağlar.
+
 cff-version: 1.2.0
+
 preferred-citation:
+  # "preferred-citation": Projeyi nasıl atıf yaparak kullanacaklarını açıklar.
   type: software
+
+  # Kullanıcıya alıntılama için önerilen mesaj
   message: If you use YOLOv5, please cite it as below.
+  
   authors:
-  - family-names: Jocher
-    given-names: Glenn
-    orcid: "https://orcid.org/0000-0001-5950-6979"
+    # "authors": Projenin geliştiricilerini ve onların ORCID (akademik kimlik) bilgilerini içerir.
+    - family-names: Jocher
+      given-names: Glenn
+      orcid: "https://orcid.org/0000-0001-5950-6979"
+
+  # "title": Projenin adı (burada "YOLOv5 by Ultralytics").
   title: "YOLOv5 by Ultralytics"
+
+  # "version": Hangi sürümün kullanıldığı.
   version: 7.0
+
+  # "doi": Projeye verilen akademik DOI (Digital Object Identifier) numarası.
   doi: 10.5281/zenodo.3908559
+
+  # "date-released": Proje sürümünün yayınlandığı tarih.
   date-released: 2020-5-29
+
+  # "license": Projenin lisans türü.
   license: AGPL-3.0
+
+  # "url": Projenin GitHub veya ana sayfa bağlantısı.
   url: "https://github.com/ultralytics/yolov5"
+
+# Eğer projenin akademik çalışmalarda referans gösterilmesini istiyorsan, bu dosyayı tutmalısın.
+# Eğer projen kişisel kullanım içinse ve alıntı yapılmasına gerek duymuyorsan, silebilirsin.
