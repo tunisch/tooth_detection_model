@@ -460,7 +460,5 @@ For YOLOv5 bug reports and feature requests please visit [GitHub Issues](https:/
 </div>
 
 [tta]: https://docs.ultralytics.com/yolov5/tutorials/test_time_augmentation
-=======
-# tooth_detection_model
-Capstoine project
->>>>>>> 2cbd0a0bd7dd2160851d44aa896662c858de3d78
+
+
