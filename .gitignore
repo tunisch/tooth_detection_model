@@ -70,8 +70,9 @@ __pycache__/
 *$py.class
 *.pyc
 
-# Sanal ortam klasörü eklenmesi
+# Sanal ortam yolov5_env ignore etmek için 
 .yolov5_env/
+
 
 
 # C extensions
