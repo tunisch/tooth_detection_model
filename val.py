@@ -467,27 +467,6 @@ def run(
     return (mp, mr, map50, map, *(loss.cpu() / len(dataloader)).tolist()), maps, t
 
 
-def validate(model, dataloader, device):
-    """
-    Validates the model using the provided dataloader and device.
-
-    Args:
-        model (torch.nn.Module): The model to validate.
-        dataloader (torch.utils.data.DataLoader): The dataloader providing validation data.
-        device (torch.device): The device to run validation on.
-
-    Returns:
-        None
-    """
-    # Log validation metrics
-    val_metrics = {
-        'precision': precision,
-        'recall': recall,
-        'mAP': mAP
-    }
-    print(f"Validation Metrics: {val_metrics}")
-
-
 def parse_opt():
     """
     Parse command-line options for configuring YOLOv5 model inference.
