@@ -343,17 +343,6 @@ def train(hyp, opt, device, callbacks):
     model.class_weights = labels_to_class_weights(dataset.labels, nc).to(device) * nc  # attach class weights
     model.names = names
 
-    # Custom logging for metrics
-    results = {
-        'metrics': {
-            'train_loss': [],
-            'val_loss': [],
-            'precision': [],
-            'recall': [],
-            'mAP': []
-        }
-    }
-
     # Start training
     t0 = time.time()
     nb = len(train_loader)  # number of batches
