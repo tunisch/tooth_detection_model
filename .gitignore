@@ -71,7 +71,7 @@ __pycache__/
 *.pyc
 
 # Sanal ortam yolov5_env ignore etmek için 
-.yolov5_env/
+yolov5_env/
 
 
 
